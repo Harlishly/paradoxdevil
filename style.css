@@ -4,7 +4,12 @@ body {
   align-items: center;
   height: 100vh;
 
-  background: linear-gradient(rgb(248, 203, 215), rgb(198, 188, 225));
+  /* background: linear-gradient(rgb(248, 203, 215), rgb(198, 188, 225)); */
+
+  background-image: url('date.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #noButton {
@@ -75,7 +80,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 p {
